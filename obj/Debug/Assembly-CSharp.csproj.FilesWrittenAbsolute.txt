@@ -1,0 +1,17 @@
+/Users/horieryousuke/Documents/Hide and Seek/Temp/bin/Debug/UnityEngine.dll
+/Users/horieryousuke/Documents/Hide and Seek/Temp/bin/Debug/UnityEditor.dll
+/Users/horieryousuke/Documents/Hide and Seek/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/horieryousuke/Documents/Hide and Seek/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/horieryousuke/Documents/Hide and Seek/Temp/bin/Debug/Mono.Cecil.dll
+/Users/horieryousuke/Documents/Hide and Seek/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/horieryousuke/Documents/Hide and Seek/Temp/bin/Debug/Unity.DataContract.dll
+/Users/horieryousuke/Documents/Hide and Seek/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/horieryousuke/Documents/Hide and Seek/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/horieryousuke/Documents/Hide and Seek/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/horieryousuke/Documents/Hide and Seek/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/horieryousuke/Documents/Hide and Seek/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/horieryousuke/Documents/Hide and Seek/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/horieryousuke/Documents/Hide and Seek/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/horieryousuke/Documents/Hide and Seek/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/horieryousuke/Documents/Hide and Seek/obj/Debug/Assembly-CSharp.dll
+/Users/horieryousuke/Documents/Hide and Seek/obj/Debug/Assembly-CSharp.dll.mdb
