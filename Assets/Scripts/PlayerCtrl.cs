@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class PlayerCtrl : MonoBehaviour {
-	public float speed;
+	public static float speed;
 	private Animator animator;
 	//死亡判定フラグ
 	public static bool IsDead = false;
@@ -17,6 +17,7 @@ public class PlayerCtrl : MonoBehaviour {
 		this.tag = ("visible");
 		materialChange = false;
 		Gauge = 200;
+		speed = 0.5f;
 
 	}
 	
@@ -64,9 +65,10 @@ public class PlayerCtrl : MonoBehaviour {
 				Gauge--;
 
 
-			} else if (Input.GetKeyUp ("space")|| Gauge <100) {
+			} else if (Input.GetKeyUp ("space")|| Gauge <200) {
 				materialChange = false;
 				this.tag = ("visible");
+				Debug.Log ("keyup!");
 				Gauge++;
 
 			}

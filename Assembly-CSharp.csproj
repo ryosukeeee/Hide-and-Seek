@@ -45,17 +45,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BarCtrl.cs" />
-     <Compile Include="Assets\Scripts\ButtonSceneChange.cs" />
-     <Compile Include="Assets\Scripts\CameraChange.cs" />
+     <Compile Include="Assets\Scripts\Camera\CameraChange.cs" />
      <Compile Include="Assets\Scripts\ColliderSceneChange.cs" />
      <Compile Include="Assets\Scripts\EnemyCtrl.cs" />
      <Compile Include="Assets\Scripts\FindJudge.cs" />
+     <Compile Include="Assets\Scripts\FindJudgePhisics.cs" />
      <Compile Include="Assets\Scripts\GotoMenu.cs" />
      <Compile Include="Assets\Scripts\MaterialChange.cs" />
+     <Compile Include="Assets\Scripts\MoveScript.cs" />
      <Compile Include="Assets\Scripts\PlayerCtrl.cs" />
      <Compile Include="Assets\Scripts\RunbaCtrl.cs" />
      <Compile Include="Assets\Scripts\TextController.cs" />
+     <Compile Include="Assets\Scripts\canvas\BarCtrl.cs" />
+     <Compile Include="Assets\Scripts\canvas\ButtonSceneChange.cs" />
      <Compile Include="Assets\Scripts\reloadCtrl.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

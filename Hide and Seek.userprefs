@@ -1,18 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RunbaCtrl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MoveScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/RunbaCtrl.cs" Line="44" Column="22" />
-      <File FileName="Assets/Scripts/PlayerCtrl.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/FindJudge.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RunbaCtrl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerCtrl.cs" Line="58" Column="5" />
       <File FileName="Assets/Scripts/TextController.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/EnemyCtrl.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/reloadCtrl.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/MaterialChange.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CameraChange.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ButtonSceneChange.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/ColliderSceneChange.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BarCtrl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/FindJudgePhisics.cs" Line="23" Column="3" />
+      <File FileName="Assets/Scripts/FindJudge.cs" Line="3" Column="1" />
+      <File FileName="Assets/Scripts/canvas/ButtonSceneChange.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/MoveScript.cs" Line="19" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

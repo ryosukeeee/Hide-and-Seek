@@ -8,6 +8,7 @@ public class FindJudge : MonoBehaviour {
 	void Start () {
 		Player = GameObject.Find ("robot");
 		animator = Player.GetComponent<Animator> ();
+		PlayerCtrl.IsDead = false;
 
 
 	}
@@ -16,9 +17,11 @@ public class FindJudge : MonoBehaviour {
 		if (other.tag == "visible") {
 			Debug.Log ("finded");
 
-			UI.SetActive (true);
-			PlayerCtrl.IsDead = true;
+
+
 			animator.SetBool ("Dead", true);
+			PlayerCtrl.IsDead = true;
+			UI.SetActive (true);
 			
 
 

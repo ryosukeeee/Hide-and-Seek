@@ -5,11 +5,15 @@ public class EnemyCtrl : MonoBehaviour {
 	private Animator animator;
 	private AnimatorStateInfo animState;
 	private int random;
+	GameObject Player;
+	Animator player_animator;
 
 
 	// Use this for initialization
 	void Start () {
 		animator = GetComponent<Animator>();
+		Player = GameObject.Find ("robot");
+		player_animator = Player.GetComponent<Animator> ();
 		PlayerCtrl.IsDead = false;
 
 
@@ -20,14 +24,13 @@ public class EnemyCtrl : MonoBehaviour {
 		animState = animator.GetCurrentAnimatorStateInfo (0);
 		if (animState.normalizedTime > 0.9F) {
 			if (PlayerCtrl.IsDead == true) {
+				//player_animator.SetBool ("Dead", true);
 				animator.speed =0;
-			} else if(PlayerCtrl.IsDead == false) {
-				random = Random.Range (0, 3);
-				animator.speed =1;
-				animator.SetInteger ("motion_ctrl", random);
-			}
+		s
+			} 
 			
 		}
-	
+			
 	}
+
 }
