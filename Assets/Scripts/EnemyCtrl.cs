@@ -25,10 +25,13 @@ public class EnemyCtrl : MonoBehaviour {
 		if (animState.normalizedTime > 0.9F) {
 			if (PlayerCtrl.IsDead == true) {
 				//player_animator.SetBool ("Dead", true);
-				animator.speed =0;
-		s
-			} 
-			
+				animator.speed = 0;
+		
+			} else if (PlayerCtrl.IsDead == false) {
+				random = Random.Range (0, 3);
+				animator.speed = 1;
+				animator.SetInteger ("motion_ctrl", random);
+			}
 		}
 			
 	}
